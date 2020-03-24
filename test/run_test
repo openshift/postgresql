@@ -929,7 +929,7 @@ run_logging_test()
   fi
 
   # the traditional log file should not exist
-  while f in "${data_dir}"/userdata/log/postgresql-*.log ] ; do
+  for f in "${data_dir}"/userdata/log/postgresql-*.log ; do
     echo "ERROR: the traditional log file $f should not exist"
     return 1
   done
