@@ -105,6 +105,8 @@ matrix:
       version: "9.6"
     - distros:
         - fedora-31-x86_64
+        - rhel-7-x86_64
+        - centos-7-x86_64
       version: "10"
     - distros:
         - rhel-7-x86_64
